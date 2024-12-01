@@ -32,8 +32,7 @@ app.get("/probando", (req, res) => {
 
         //normalmente se devuleve una respuesta
     return res.status(200).json([{
-        curso: "Master en react",
-        autor: "Victor Robles"
+    
     },
 
 ]);
